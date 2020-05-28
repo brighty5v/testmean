@@ -1,6 +1,6 @@
 var Product=require('../models/product');
 var mongoose=require('mongoose');
-//mongoose.connect('mongodb://localhost:27017/onlinedb');
+mongoose.connect('mongodb://localhost:27017/onlinedb');
 //mongoose.connect('mongodb://localhost:27017/onlinedb', {useUnifiedTopology: true,useNewUrlParser: true});
 
 
