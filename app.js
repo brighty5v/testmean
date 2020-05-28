@@ -18,7 +18,7 @@ var MongoStore=require('connect-mongo')(session);
 // view engine setup
 //app.set('views', path.join(__dirname, 'views'));
 
-//mongoose.connect('mongodb://localhost:27017/onlinedb');
+mongoose.connect('mongodb://localhost:27017/onlinedb');
 //mongoose.connect('mongodb://localhost:27017/onlinedb', {useUnifiedTopology: true,useNewUrlParser: true});
 require('./config/passport');
 
